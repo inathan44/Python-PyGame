@@ -32,7 +32,7 @@ class Circle(pygame.sprite.Sprite):
         self.starting_pos = starting_pos
         self.x_pos = starting_pos[0]
         self.y_pos = starting_pos[1]
-        self.x_direction = 20
+        self.x_direction = 10
         self.y_direction = 4
         
     def circle_movement(self, screen):
